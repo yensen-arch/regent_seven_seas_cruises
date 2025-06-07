@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "All-Inclusive Excellence",
-  description: "From unlimited shore excursions to fine wines, gratuities, Wi-Fi, and even business-class airfare—everything is included.",
+  title: "Truly All-Inclusive Luxury",
+  description: "Fares include business-class air, excursions, fine dining, and onboard gratuities worldwide.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
   title: "Spacious All-Suite Ships",
-  description: "Sail aboard intimate ships with one of the highest space-to-guest ratios at sea—offering private balconies, walk-in closets, and marble-accented bathrooms.",
+  description: "Each guest enjoys a private balcony and lavish suite comforts.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Globally Inspired Cuisine",
-  description: "Savor gourmet dining at multiple specialty restaurants, with menus crafted by master chefs using locally sourced ingredients.",
+  title: "Gourmet Global Cuisine",
+  description: "Fine dining across multiple restaurants with menus curated by master chefs.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Curated Shore Excursions",
-  description: "Enjoy unlimited, immersive excursions in every port, from cultural tours and tastings to wildlife adventures and historical walks.",
+  title: "Immersive Shore Excursions",
+  description: "Unlimited included tours at every port with expert local guides.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Regent Seven Seas Cruises Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
